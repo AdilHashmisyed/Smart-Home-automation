@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shared_key"
+            android:icon="@drawable/ic_vpn_key_black_24dp"
+            android:title="Hall" />
+        <item
+            android:id="@+id/nav_documents"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Documents"
+            />
+        <item
+            android:id="@+id/nav_documents"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Documents"
+            />
+
+
+        <item
+            android:id="@+id/nav_documents"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Documents"
+            />
+        <item
+            android:id="@+id/nav_documents"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Documents" />
+
+            />
+
+
+
+
+
+    </group>
+
+
+</menu>

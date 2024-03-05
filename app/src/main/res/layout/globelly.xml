@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ddd"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/android_card_view_example"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonsape">
+
+
+            <ImageView
+                android:id="@+id/cardview_image"
+                android:layout_width="190dp"
+                android:layout_height="169dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="173dp"
+                android:layout_marginRight="173dp"
+                android:layout_marginBottom="@dimen/activity_horizontal_margin"
+                android:src="@drawable/wifi" />
+
+            <TextView
+                android:id="@+id/test123"
+                android:layout_width="139dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/cardview_image"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="34dp"
+                android:layout_marginRight="34dp"
+                android:layout_marginBottom="47dp"
+                android:clickable="true"
+                android:text="Smart Home \n  Version 3.0"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+
+
+        </RelativeLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="391dp"
+        android:layout_height="53dp"
+        android:layout_x="1dp"
+        android:layout_y="212dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="Check for Update"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_x="-9dp"
+        android:layout_y="211dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_x="-25dp"
+        android:layout_y="268dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="304dp" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:layout_x="-25dp"
+        android:layout_y="328dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="392dp"
+        android:layout_height="60dp"
+        android:layout_x="1dp"
+        android:layout_y="268dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:gravity="center_vertical"
+        android:text="User Agreement"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+
+</AbsoluteLayout>

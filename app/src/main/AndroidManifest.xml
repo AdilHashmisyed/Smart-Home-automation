@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ibrahim.firebase">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Smart Home"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--activity android:name=".SignUpActivity" />
+        <!activity android:name=".Control" /-->
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".WifiConnection"
+            android:theme="@style/Theme.AppCompat.Dialog" />
+        <activity android:name=".AppInfo" />
+        <activity android:name=".Signal" />
+        <activity
+            android:name=".YourActivity"
+            android:label="Setting" android:background="#FFFFFF">
+        </activity>
+        <activity
+            android:name=".ShareKey"
+            android:label="@string/title_activity_share_key"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dialog">
+        </activity>
+        <activity
+            android:name=".globelly"
+            android:label="About">
+        </activity>
+        <activity
+            android:name=".policy"
+            android:label="Policy">
+        </activity>
+        <activity
+            android:name=".Bluetooth"
+            android:label="Bluetooth">
+        </activity>
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="portrait"
+            tools:replace="screenOrientation" />
+        <activity android:name=".RecyclerAdapter$HolderView" />
+    </application>
+
+</manifest>
