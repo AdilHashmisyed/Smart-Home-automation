@@ -1,4 +1,4 @@
-## Smart Home Automation git 
+## Smart Home Automation 
 
 
-This app is made or Android users, to automata all the Home Applience and integrated with Hardware Modules.
+This app is made for Android users, to automata all the Home Applience and integrated with Hardware Modules.
